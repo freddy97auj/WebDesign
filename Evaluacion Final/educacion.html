@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educacion</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" width="200px" height="200px" alt="Logotipo" title="Logotipo">
+        <h1>Resumen Curricular</h1>
+        <h2>Nombre: Freddy Ulloa</h2>
+        <h3>Lugar de nacimiento: Cartago, Costa Rica</h3>
+        <h3>Fecha nacimiento: 03/03/1997</h3>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="educacion.html">Educación</a>
+                </li>
+                <li>
+                    <a href="experiencia.html">Experiencia</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Educacion</h2>
+    <table border="1">
+        <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Culminó?</th>
+        </tr>
+        <tr>
+            <td>2014</td>
+            <td>Liceo San Carlos</td>
+            <th>San Carlos de Tarrazu</th>
+            <th>Sí</th>
+
+        </tr>
+        <tr>
+            <td>2015</td>
+            <td>UAM</td>
+            <th>Cartago, Costa Rica</th>
+            <th>No</th>
+
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>U Fidélitas</td>
+            <th>San Pedro, Montes de Oca</th>
+            <th>No</th>
+
+        </tr>
+    </table>
+    <form autocomplete="on" name="Agregar Estudios">
+        <fieldset>
+            <legend>Agregar Estudios</legend>
+            <label for="ano">Año: </label>
+            <select name="ano" id="">
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+
+            </select>
+
+            <p>
+                <label for="institucion">
+                    <strong>Institución:</strong>
+                </label>
+                <input type="text" name="institucion" value="">
+            </p>
+            <p>
+                <label for="lugar">
+                    <Strong>Lugar: </Strong>
+                </label>
+                <textarea name="lugar" id="" cols="41" rows="4"></textarea>
+            </p>
+
+            <p>
+                <form action="">
+                    <label for="">
+                        <strong> Culmió?</strong>
+                    </label>
+                    <input type="radio" name="culmino" value="si"> Sí
+                    <input type="radio" name="culmino" value="No"> No
+                    <br>
+
+            </p>
+            <p>
+                <input type="button" value="Enviar">
+            </p>
+        </fieldset>
+        </form>
+        <footer>
+            <h4>Contacto:</h4>
+            <h5>Teléfono: 506 8888-8888</h5>
+            <h5>Correo electrónico: example@gmail.com</h5>
+
+
+        </footer>
+</body>
+
+</html>
